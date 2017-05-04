@@ -96,8 +96,7 @@ assign f1_n12_input = b13_in - a13_out;
 assign f1_n0 = (f1_n1 + b1_in) >>> 20;
 assign y = f1_n0;
 
-//Run the filter state machine at audio sample rate
-//audio cycle
+// Run the filter state machine at audio sample rate
 always @ (negedge clk) 
 begin
     if (reset)

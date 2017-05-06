@@ -32,12 +32,12 @@ The Verilog filter is tested on two test benches for frequencies 2kHz and 6kHz. 
 
 ## Results
 
-C++ and verilog implementation outputs for *2kHz* signal.
+C++ and verilog implementation outputs for **2kHz** signal.
 
 ![c++-2k](./images/test_c++_2k.png)
 ![verilog-2k](./images/test_verilog_2k.png)
 
-C++ and verilog implementation outputs for *6kHz* signal.
+C++ and verilog implementation outputs for **6kHz** signal.
 
 ![c++-6k](./images/test_c++_6k.png)
 ![verilog-6k](./images/test_verilog_6k.png)
